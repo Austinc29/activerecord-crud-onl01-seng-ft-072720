@@ -24,7 +24,7 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    m.title = ""
+    m.title = "The Matrix"
     m.release_date = 1990
   end
 end
